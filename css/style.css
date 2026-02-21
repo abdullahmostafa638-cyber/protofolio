@@ -579,8 +579,79 @@ font-size: 22px;
     font-size: 16px; /* حجم الأيقونة مناسب */
   }
 }
+@media screen and (min-width:0px) and (max-width:480px) {
+    .hero-text h1 {
+    font-size: 28px;
+  }
+  .hero-text h3 {
+    font-size: 18px;
+  }
+  .resume-btn {
+    width: 100%;
+  }
+  .hero-img img {
+    width: 180px;
+    height: 180px;
+  }
+  .intro .overview span,
+  .project-info span {
+    font-size: 16px;
+  }
+  .info {
+    font-size: 16px;
+  }
+  .desc li,
+  .desc span {
+    font-size: 16px;
+  }
+  .ex h5 {
+    font-size: 24px;
+  }
+  .ex span {
+    font-size: 16px;
+  }
+  .custom-card {
+    padding: 40px 20px;
+  }
+  .custom-card1 img {
+    width: 100%;
+  }
+  .social {
+    gap: 15px;
+  }
+  .navbar .container {
+    display: flex;
+    flex-direction: row; /* يخليهم جنب بعض */
+    justify-content: space-between; /* كل واحد في طرف */
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+  }
+
+  .logo {
+    display: flex; /* يخلي الاسم والوظيفة جنب بعض */
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .logo .name {
+    font-size: 16px;
+  }
+
+  .logo .job {
+    font-size: 14px;
+  }
+
+  .navbar-toggler i{
+    border: none;
+    background: transparent;
+    font-size: 18px; /* حجم الأيقونة مناسب */
+  }
+}
 
 /* end responsive  */
+
 
 
 
