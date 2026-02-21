@@ -423,7 +423,7 @@ font-size: 22px;
     justify-content: space-between; /* كل واحد في طرف */
     align-items: center;
     text-align: left;
-    gap: 10px;
+    gap: 5px;
   }
 
   .logo {
@@ -555,7 +555,7 @@ font-size: 22px;
     justify-content: space-between; /* كل واحد في طرف */
     align-items: center;
     text-align: left;
-    gap: 10px;
+    gap: 5px;
   }
 
   .logo {
@@ -581,6 +581,7 @@ font-size: 22px;
 }
 
 /* end responsive  */
+
 
 
 
