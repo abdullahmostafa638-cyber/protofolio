@@ -444,7 +444,7 @@ font-size: 22px;
   .navbar-toggler i{
     border: none;
     background: transparent;
-    font-size: 20px; /* حجم الأيقونة مناسب */
+    font-size: 18px; /* حجم الأيقونة مناسب */
   }
   .nav-links {
     flex-direction: column;
@@ -576,11 +576,12 @@ font-size: 22px;
   .navbar-toggler i {
     border: none;
     background: transparent;
-    font-size: 18px; /* حجم الأيقونة مناسب */
+    font-size: 16px; /* حجم الأيقونة مناسب */
   }
 }
 
 /* end responsive  */
+
 
 
 
