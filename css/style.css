@@ -417,19 +417,34 @@ font-size: 22px;
 }
 /* ========== Mobile (≤ 768px) ========== */
 @media (max-width: 768px) {
-  /* Navbar Layout */
-  .navbar .container {
+    .navbar .container {
     display: flex;
     flex-direction: row; /* يخليهم جنب بعض */
     justify-content: space-between; /* كل واحد في طرف */
     align-items: center;
     text-align: left;
+    gap: 10px;
   }
+
+  .logo {
+    display: flex; /* يخلي الاسم والوظيفة جنب بعض */
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+
   .logo .name {
-    font-size: 20px;
+    font-size: 16px;
   }
+
   .logo .job {
-    font-size: 18px;
+    font-size: 14px;
+  }
+
+  .navbar-toggler {
+    border: none;
+    background: transparent;
+    font-size: 24px; /* حجم الأيقونة مناسب */
   }
   .nav-links {
     flex-direction: column;
@@ -566,4 +581,5 @@ font-size: 22px;
 }
 
 /* end responsive  */
+
 
