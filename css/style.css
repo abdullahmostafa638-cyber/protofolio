@@ -419,9 +419,11 @@ font-size: 22px;
 @media (max-width: 768px) {
   /* Navbar Layout */
   .navbar .container {
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
+    display: flex;
+    flex-direction: row; /* يخليهم جنب بعض */
+    justify-content: space-between; /* كل واحد في طرف */
+    align-items: center;
+    text-align: left;
   }
   .logo .name {
     font-size: 20px;
@@ -533,4 +535,5 @@ font-size: 22px;
     gap: 15px;
   }
 }
+
 /* end responsive  */
