@@ -576,7 +576,7 @@ font-size: 22px;
   .navbar-toggler i {
     border: none;
     background: transparent;
-    font-size: 20px; /* حجم الأيقونة مناسب */
+    font-size: 14px; /* حجم الأيقونة مناسب */
   }
 }
 @media screen and (min-width:0px) and (max-width:480px) {
@@ -646,11 +646,12 @@ font-size: 22px;
   .navbar-toggler i{
     border: none;
     background: transparent;
-    font-size: 20px; /* حجم الأيقونة مناسب */
+    font-size: 14px; /* حجم الأيقونة مناسب */
   }
 }
 
 /* end responsive  */
+
 
 
 
